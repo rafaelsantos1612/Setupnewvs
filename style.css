@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+  }
+
+  html{
+
+    height: 969px;
+    width: 2057px;
+    left: -2483px;
+    top: -380px;
+    border-radius: 0px;
+    
+
+  }
+  body {
+    position: relative;
+    width: 2057px;
+    height: 969px;
+    
+    background: #09090A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  body * {
+    
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /*Caixa do cabeçalho*/
+
+ header{ 
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+
+
+  padding: 50px;
+
+  position: fixed;
+  width: 100%;
+  background-color: #09090A;
+
+ }
+
+
+button{
+padding: 16px 24px;
+border: 1px  solid red;
+border-radius: 8px;
+background-color: transparent;
+color: white;  
+
+display: flex;
+align-items: center;
+gap: 12px;
+
+font-family: 'inter';
+font-weight: 600;
+line-height: 125%;
+font-size: 16px;
+
+}
+/*---------------------------------------*/
+
+form{
+
+    display: flex;
+    padding: 182px 48px  48px;
+    width: fit-content ;
+    
+}
+    .habits{
+
+      margin-top: 65px;
+      display: flex;
+      flex-direction: column;
+    
+      gap: 24px;
+
+    }
+
+    .habit{
+      
+      width: 64px;
+      height: 64px;
+
+      
+    
+      
+
+      font-size: 32px;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+    
+
+    }
+
+    .days {
+      display: flex;     
+      margin-left: 10px;
+      gap:24px;
+     
+
+    }
+
+    .day{
+
+      display: flex;
+      flex-direction: column;
+      gap:45px;
+      margin-top: 0px;
+      margin-left: 10px;
+      margin-right: 1px;
+
+     
+
+    }
+
+    .day div{
+
+      margin-bottom: 0px;
+      margin-top: 0%;
+     
+
+      font-family: 'Roboto mono';
+      font-size: 20px;
+      line-height:125%;
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #A1A1A1;
+
+    }
+
+
+input{
+
+  appearance: none;
+  -webkit-appearance: none;
+
+  background: #181818;
+
+  width: 45px;
+  height: 45px;
+ 
+
+  border: 2px solid red;
+  border-radius: 8px;
+
+}
+
+input:checked{
+
+  background: #8b5cf6;
+  border: 2px solid #A78BFA;
+
+}
+
+@media (max-width: 570px ) {
+
+  button div{
+    display: none;
+  }
+}
